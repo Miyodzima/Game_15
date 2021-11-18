@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        int[][] array = new int[4][4];
+
+
         Button b0 = findViewById(R.id.b0);
         Button b1 = findViewById(R.id.b1);
         Button b2 = findViewById(R.id.b2);
